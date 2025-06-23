@@ -1,0 +1,59 @@
+{{> header}}
+
+<style>
+  .about-wrapper {
+    min-height: 90vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #f5f5f5;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+
+  .about-card h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+  .about-card p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e0e0e0;
+  }
+
+  .highlight {
+    color: #ffc107;
+    font-weight: 600;
+  }
+</style>
+
+<section class="about-wrapper">
+  <div class="about-card">
+    <h1>About This Project</h1>
+    <p>
+      This is a <span class="highlight">full-stack CRUD application</span> developed using 
+      <span class="highlight">Node.js</span>, <span class="highlight">Express.js</span>, 
+      <span class="highlight">MongoDB</span>, and <span class="highlight">Handlebars</span>. 
+      It allows users to <strong>add, view, update,</strong> and <strong>delete</strong> employee records in a simple and clean interface.
+    </p>
+    <br />
+    <p>
+      The application demonstrates core backend functionality with RESTful routing and MongoDB integration. 
+      It’s styled using Bootstrap for responsiveness and a touch of modern UI elements for improved user experience. 
+      This project is ideal for showcasing <span class="highlight">web development skills</span> to HRs and recruiters.
+    </p>
+  </div>
+</section>
